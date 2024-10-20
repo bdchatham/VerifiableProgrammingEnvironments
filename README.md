@@ -1,4 +1,4 @@
-# Software Integrity: Building a Secure
+# Achieving Resilient Software Integrity & Transparency
 [Nethermind Bounty](https://ethglobal.com/events/sanfrancisco2024/prizes/nethermind)
 
 Hello! I recentlhy joined Eigen Labs and found this problem space to be very applicable to the one I have been focused on since joining.
