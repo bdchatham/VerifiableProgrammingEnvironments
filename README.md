@@ -43,7 +43,7 @@ The implementation of proof of machinehood as a blockchain baselayer will **limi
 
 The challenges of trust and verifiability in robotics have clear parallels in blockchain protocols like EigenLayer. In EigenLayer, AVS's implicitly trust node operators to run authentic code, act honestly and maintain their infrastructure properly. However, these AVS's have no direct insight into the state of the node operators’ hardware or software, creating an opportunity for misbehavior.
 
-Similarly, in robotics, users and stakeholders must trust that the hardware and software on autonomous machines remain unaltered and operate as intended. Both systems operate in opaque environments where the internal state of actors cannot be easily observed or verified in real time. Proof of machinehood offers a way to bridge the trust gap in both domains, allowing for continuous verification of state and behavior, whether for robots or blockchain nodes.
+Similarly, in robotics, users and stakeholders must trust that the hardware and software on autonomous machines remain unaltered and operate as intended. Both systems operate in opaque environments where the internal state of actors cannot be easily observed or verified in real time. Proof of machinehood offers a way to bridge the trust gap in both domains, allowing for continuous verification of state and behavior.
 
 ---
 
