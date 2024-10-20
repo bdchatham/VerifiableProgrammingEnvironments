@@ -1,0 +1,7 @@
+[workspace]
+members = ["app", "enclave"]
+resolver = "2"
+
+[workspace.dependencies]
+automata-sgx-sdk = { git = "https://github.com/automata-network/automata-sgx-sdk", branch = "main" }
+automata-build-script = { git = "https://github.com/automata-network/automata-sgx-sdk", branch = "main" }

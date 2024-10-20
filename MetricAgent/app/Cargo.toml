@@ -1,0 +1,15 @@
+[package]
+name = "machine_metric_agent"
+version = "0.1.1"
+
+[dependencies]
+automata-sgx-sdk = { workspace = true }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Enable tstd_app feature to use the SGX SDK in the app
+[features]
+tstd_app = ["automata-sgx-sdk/tstd_app"]
+
+[package.metadata.sgx]
+sgx_enclave = { path = "../enclave", config = "sgx/config.xml", edl = "sgx/enclave.edl", lds = "sgx/enclave.lds", key = "sgx/private.pem" }

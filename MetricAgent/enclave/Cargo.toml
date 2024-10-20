@@ -1,0 +1,13 @@
+[package]
+name = "sgx_enclave"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"]  # Compile as a static library
+
+[dependencies]
+automata-sgx-sdk = { workspace = true }
+
+[features]
+tstd_enclave = ["automata-sgx-sdk/tstd_enclave"]
